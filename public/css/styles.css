@@ -59,7 +59,8 @@ button:disabled {
 /* Join Page Styles */
 
 .centered-form {
-    background: #333744;
+    /* background: #333744; */
+    background: url('../img/dre.jpg');
     width: 100vw;
     height: 100vh;   
     display: flex;
@@ -92,7 +93,9 @@ button:disabled {
 .chat__sidebar {
     height: 100vh;
     color: white;
-    background: #333744;
+    /* background: #333744; */
+    background: url('../img/chili.jpg');
+    background-size: 100px;
     width: 225px;
     overflow-y: scroll
 }
@@ -170,7 +173,7 @@ button:disabled {
 }
 
 .list-title {
-    font-weight: 500;
+    font-weight: 1000;
     font-size: 18px;
     margin-bottom: 4px;
     padding: 12px 24px 0 24px;
@@ -178,6 +181,6 @@ button:disabled {
 
 .users {
     list-style-type: none;
-    font-weight: 300;
+    font-weight: 800;
     padding: 12px 24px 0 24px;
 }
